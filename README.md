@@ -121,8 +121,8 @@ the is also for who have 11gen or higer cpu can use (PC GPU HEVC.bat) or for  rt
 ---
 # my bat or sh for me was very usfel it compress 60% of my videos
 i was have 30gb of vidoes shorts now they 18gb 
-if u want edit any value u can ask any ai tool it will ecplain 
-i just share usage after long day.
+if u want edit any value of cocdec for low qaulity and lower size u can ask any ai tool it will explain i use my optmized setings for my eye <3. 
+andddddddd i just share usage after long day.
 
 ## ⭐ Support
 
