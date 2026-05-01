@@ -127,3 +127,5 @@ If you like this project, give it a star ⭐
 ```bash
 compress.bat
 filter.bat
+
+bash compress.sh
