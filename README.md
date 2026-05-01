@@ -1,4 +1,3 @@
-# 🚀 Video Compression Toolkit
 ### Automated Video Compression & Sorting (FFmpeg Powered)
 
 A powerful toolkit to **compress, organize, and manage videos automatically** using FFmpeg.  
