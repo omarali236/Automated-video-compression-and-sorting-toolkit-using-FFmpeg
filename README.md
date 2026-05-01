@@ -1,6 +1,10 @@
 # 🚀 Video Compression Toolkit
 ### Automated Video Compression & Sorting (FFmpeg Powered)
 
+![FFmpeg](https://img.shields.io/badge/Powered%20by-FFmpeg-blue)
+![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Termux-green)
+![License](https://img.shields.io/badge/License-MIT-yellow)
+
 ## Why this tool?
 
 - Saves up to 60–80% storage
@@ -115,3 +119,11 @@ Finished/movie.mp4 → 120MB
 ## ⭐ Support
 
 If you like this project, give it a star ⭐
+
+
+## ▶️ Usage
+
+### Windows
+```bash
+compress.bat
+filter.bat
