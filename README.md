@@ -124,9 +124,13 @@ If you like this project, give it a star ⭐
 
 ## ▶️ Usage
 
-### Windows
+### 💻 Windows
 ```bash
 compress.bat
 filter.bat
+```
 
+### 📱 Termux
+```bash
 bash compress.sh
+```
