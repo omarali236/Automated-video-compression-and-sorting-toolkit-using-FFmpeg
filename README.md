@@ -1,8 +1,8 @@
 # Video-Compression-Toolkit
-🌀 Video Processing Toolkit:
+ Video Processing Toolkit:
 أهلاً بك في "مفرمة الفيديوهات". هذا المستودع يحتوي على أقوى السكريبتات لأتمتة ضغط الفيديوهات وفرزها، سواء كنت بتستخدم الموبايل (Termux) أو الكمبيوتر (Windows).
 
-📱 قسم الأندرويد (Termux)
+# android (Termux)
 هذه السكريبتات مصممة لتعمل بأقصى سرعة باستخدام المعالجة البرمجية للهاردوير (Hardware Acceleration) المدمجة في موبايلك.
 
 الخطوة الصفرية: تجهيز البيئة
