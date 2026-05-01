@@ -1,4 +1,11 @@
+# 🚀 Video Compression Toolkit
 ### Automated Video Compression & Sorting (FFmpeg Powered)
+
+## Why this tool?
+
+- Saves up to 60–80% storage
+- Fully automated workflow
+- Works on both mobile (Termux) and PC (Windows)
 
 A powerful toolkit to **compress, organize, and manage videos automatically** using FFmpeg.  
 Supports both **Android (Termux)** and **Windows** for flexible workflows.
