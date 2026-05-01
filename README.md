@@ -31,16 +31,17 @@ Supports both **Android (Termux)** and **Windows** for flexible workflows.
 ## 📦 Requirements
 
 - FFmpeg  
-- ffprobe (included with FFmpeg)
-
+- ffprobe (included with FFmpeg) just extrect .exe copy them to system32 on windows 
+https://ffmpeg.org/download.html
 ---
 
 ## 📱 Android (Termux)
+https://f-droid.org/packages/com.termux/
 
 ### Setup
 
 ```bash
-pkg update && pkg upgrade -y
+pkg update && pkg upgrade -y 
 pkg install ffmpeg -y
 termux-setup-storage
 ```
@@ -51,9 +52,9 @@ termux-setup-storage
 
 ---
 
-## 💻 Windows
+## 💻 Windows 
 
-### 1. Smart Compressor (CPU)
+### 1. Smart Compressor (CPU) (PC Compress cpu)
 
 - Compresses videos in the same folder
 - Uses **x265 (HEVC)** codec
@@ -62,7 +63,7 @@ termux-setup-storage
 
 ---
 
-### 2. Video Sorter (filter.bat)
+### 2. Video Sorter (PC VideoSorter.bat)
 
 - Scans videos in folder
 - Uses **ffprobe** to detect codec
@@ -85,7 +86,7 @@ Sorted_Videos/
 - Saves to `Finished/`
 - Applies smart size check
 
-### Sorting Script
+### Sorting Script (PC VideoSorter)
 - Detects codec
 - Sorts automatically into folders
 
@@ -98,6 +99,7 @@ movie.mp4 → 500MB
 
 After:
 Finished/movie.mp4 → 120MB
+the is also for who have 11gen or higer cpu can use (PC GPU HEVC.bat) or for  rtx4050 gpus or higer use PC (GPU AV1.bat)
 
 ---
 
@@ -110,27 +112,18 @@ Finished/movie.mp4 → 120MB
 
 ---
 
-## ⚠️ Notes
+## ⚠️ Notes or using
 
-- You may need to edit input/output paths
-- Current version uses CPU
-
+- You may need to edit input/output paths for .sh files copy past or save them on ur termux u can search in youtube 
+- Current version of .sh uses gpu u better cheak your phone cpu support codecs 
+- on android just give premison instal update and ffmpg and the use .sh file or copy and past or edit path of videos them depend in your need
+- on pc for sort or compress just copy the .bat file on video folders
 ---
+# my bat or sh for me was very usfel it compress 60% of my videos
+i was have 30gb of vidoes shorts now they 18gb 
+if u want edit any value u can ask any ai tool it will ecplain 
+i just share usage after long day.
 
 ## ⭐ Support
 
 If you like this project, give it a star ⭐
-
-
-## ▶️ Usage
-
-### 💻 Windows
-```bash
-compress.bat
-filter.bat
-```
-
-### 📱 Termux
-```bash
-bash compress.sh
-```
